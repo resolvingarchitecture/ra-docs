@@ -14,8 +14,8 @@ using a Client Socket connection for local connections.
 Most projects in Resolving Architecture's GitHub space were designed for deployment to the Service Bus project.
 The Service Bus projects uses the SEDA Bus project as its Message-Oriented Middleware (MOM).
 
-The original services are Java based. Java implemented projects are slowly being implemented in Rust to supporting implementing
-within an operating system and in Typescript for use in browsers.
+The original services are Java based. Java implemented projects are slowly being implemented in Rust to support integration within
+the Redox operating system (written in Rust) and in Typescript for use in browsers.
 
 * SEDA Bus is the foundational library for dapps where all message integration occurs between services.
     * [Java](https://github.com/resolvingarchitecture/seda-bus-java) - Fully working
